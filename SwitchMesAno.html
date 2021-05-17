@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="switchMesAno.css">
+</head>
+<body>
+    <header>
+        <h1>Mês Correspondente</h1>
+    </header>
+    <form name="formcalend">
+        <div class="opmes">
+            Digite Mês (01 a 12):<br><input type="text" name="f_mes" size="4" maxlength="2" id="mes">
+        </div>
+        <div class="btn_ver">
+            <input type="button" name="btn_processar"  value="Processar" onclick="verificar()">
+        </div>
+        
+        <div class="btn_can">
+            <input type="reset" name="btn_cancelar" value="Cancelar">
+        </div>
+        <div class="res">
+            O Mês corresponde é<br><input type="text" name="f_nomemes" size="18" maxlength="15">
+        </div>
+        
+    <script src="SwitchMesAno.js"></script>
+</body>
+</html>
